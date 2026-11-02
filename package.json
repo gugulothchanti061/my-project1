@@ -1,0 +1,19 @@
+{
+  "name": "branchboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A real-time multi-tenant collaborative task board",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "express": "^4.21.2",
+    "ws": "^8.18.0"
+  }
+}
